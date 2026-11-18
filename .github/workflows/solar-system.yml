@@ -67,8 +67,6 @@ jobs:
         MONGO_USERNAME: non-prod-user
         MONGO_PASSWORD: non-prod-password
       runs-on: ubuntu-latest
-    - name: Checkout Repository
-      uses: actions/checkout@v4
       steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
